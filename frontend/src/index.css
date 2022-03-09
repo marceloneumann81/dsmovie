@@ -10,10 +10,10 @@
 }
 
 html, body {
-    background-color: #E8E8E8;
+    background-color: #ddd;
 }
 
 a, a:hover {
   text-decoration: none;
-  color: unset;
+  color: unset;    
 }
