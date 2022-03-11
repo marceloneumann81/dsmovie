@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsmovie.dto.MovieDTO;
@@ -11,7 +12,7 @@ import com.devsuperior.dsmovie.dto.ScoreDTO;
 import com.devsuperior.dsmovie.services.ScoreService;
 
 @RestController
-@RequestMapping(value = "/scores")
+@RequestMapping(value = "/scores", method = RequestMethod.POST)
 public class ScoreController {
 	
 	@Autowired
