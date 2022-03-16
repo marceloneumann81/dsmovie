@@ -21,6 +21,7 @@
     Endpoints da API REST
 
 <h4> Implantação na nuvem </h4>
+
     Heroku
     Netlify
     
